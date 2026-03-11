@@ -14,7 +14,7 @@ import Login from "../components/Authentication/Login";
 import Signup from "../components/Authentication/Signup";
 
 function Homepage() {
-  const history = useHistory();
+  const history = useHistory(); 
 
   useEffect(() => {
     const user = JSON.parse(localStorage.getItem("userInfo"));
